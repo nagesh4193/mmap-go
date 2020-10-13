@@ -6,12 +6,6 @@ os:
   - linux
   - osx
   - windows
-jobs:
-  exclude: #Excluding for power support
-   - arch: ppc64le
-     os: osx
-   - arch: ppc64le
-     os: windows
 go:
   - 1.11.4
 env:
